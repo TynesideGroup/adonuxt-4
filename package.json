@@ -7,9 +7,7 @@
   "scripts": {
     "dev": "adonis serve --dev --debug",
     "build": "adonis nuxt:build",
-    "start": "cross-env NODE_ENV=production node server.js",
-    "test": "node ace test",
-    "lint": "standard && eslint --ext .js,.vue resources/"
+    "start": "cross-env NODE_ENV=production node server.js"
   },
   "keywords": [
     "adonisjs",
