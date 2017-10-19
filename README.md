@@ -28,8 +28,8 @@ adonis new --blueprint liam-potter/adonuxt-4 <project-name> --yarn
 
 
 ## Usage
-| npm Command | yarn Command | Description |
-|------------------------------------------|
+| npm | yarn | Description |
+|-----|------|-------------|
 | npm run dev | yarn dev | Start Adonis server in development with Nuxt in development mode (hot reloading + watcher). Listen on [http://localhost:3333](http://localhost:3333) |
 | npm run dev-debug | yarn dev-debug | As above, with additional Adonis debugging available at [chrome://inspect](chrome://inspect) |
 | npm run build | yarn build | Build the Nuxt application for production |
@@ -46,7 +46,7 @@ adonis migration:run
 adonis seed
 ```
 
-At some point I will update this boiletplate to also include a simple Nuxt CRUD interface for this endpoint :smile:
+At some point I will update this boilerplate to also include a simple Nuxt CRUD interface for this endpoint :smile:
 
 ## Adonis Changes
 - No more `public` directory, use `resources/static` instead
