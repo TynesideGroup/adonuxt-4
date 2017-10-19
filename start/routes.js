@@ -19,7 +19,7 @@ Route.group(() => {
 
   Route
     .resource('users', 'UserController')
-    .only(['index', 'show'])
+    .apiOnly()
 
 }).prefix('api/v1')
 
