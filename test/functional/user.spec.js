@@ -3,6 +3,7 @@
 const { test, trait } = use('Test/Suite')('User')
 const User = use('App/Models/User')
 
+trait('DatabaseTransactions')
 trait('Test/ApiClient')
 
 test ('get list of users', async ({ client }) => {
@@ -21,8 +22,4 @@ test ('get list of users', async ({ client }) => {
     last_name: 'Potter',
     email_address: 'test@test.com'
   }])
-})
-
-test('make sure 2 + 2 is 4', async ({ assert }) => {
-  assert.equal(2 + 2, 4)
 })
