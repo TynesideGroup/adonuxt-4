@@ -13,12 +13,12 @@ npm install -g @adonisjs/cli
 
 > Adonis 4 requires adonis-cli >= 3.0.14 (`adonis --version`). If upgrading from Adonis 3.x remove the old version before reinstalling the latest version as above.
 
-Once you have the CLI installed you can clone this template using the CLI which will automatically install all dependencies.
+Once you have the CLI installed you can clone this template using the CLI which will automatically install all dependencies (where `<project-name>` is the name of your project):
 ```bash
 # npm
 adonis new --blueprint liam-potter/adonuxt-4 <project-name>
 
-#yarn
+# yarn
 adonis new --blueprint liam-potter/adonuxt-4 <project-name> --yarn
 ```
 
@@ -31,7 +31,7 @@ adonis new --blueprint liam-potter/adonuxt-4 <project-name> --yarn
 | npm | yarn | Description |
 |-----|------|-------------|
 | npm run dev | yarn dev | Start Adonis server in development with Nuxt in development mode (hot reloading + watcher). Listen on [http://localhost:3333](http://localhost:3333) |
-| npm run dev-debug | yarn dev-debug | As above, with additional Adonis debugging available at [chrome://inspect](chrome://inspect) |
+| npm run dev-debug | yarn dev-debug | As above, with additional Adonis debugging available at `chrome://inspect` |
 | npm run build | yarn build | Build the Nuxt application for production |
 | npm run start | yarn start | Start the Adonis server in production |
 
