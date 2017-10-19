@@ -1,27 +1,15 @@
 'use strict'
 
+const User = use('App/Models/User')
+
 class UserController {
 
-  static get inject () {
-    return [
-      'App/Models/User'
-    ]
+  async index () {
+    return User.all()
   }
 
-  constructor (User) {
-    this.User = User
-  }
-
-  async index ({ response }) {
-    response.json({
-      users: this.User.all()
-    })
-  }
-
-  async show ({ params, response }) {
-    response.json({
-      user: this.User.find(params.id)
-    })
+  async show ({ params }) {
+    return User.find(params.id)
   }
 
 }
