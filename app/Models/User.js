@@ -9,6 +9,10 @@ class User extends Model {
     this.addHook('beforeCreate', 'User.hashPassword')
   }
 
+  static get hidden () {
+    return ['password']
+  }
+
   static get computed () {
     return ['full_name']
   }

@@ -1,6 +1,6 @@
 'use strict'
 
-const User = User('App/Models/User')
+const User = use('App/Models/User')
 
 const usersSeedData = require('../seed-data/Users')
 
