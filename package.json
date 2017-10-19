@@ -1,21 +1,24 @@
 {
-  "name": "adonuxt-template",
-  "version": "2.0.0",
-  "author": "",
-  "description": "",
+  "name": "adonuxt-4",
+  "version": "1.0.0",
+  "author": "Liam Potter",
+  "description": "Adonis + Nuxt boilerplate template",
   "license": "MIT",
   "private": true,
   "main": "server.js",
   "scripts": {
     "dev": "adonis serve --dev",
-    "dev-debug": "adonis server --dev --debug",
+    "dev-debug": "adonis serve --dev --debug",
     "build": "adonis nuxt:build",
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "keywords": [
+    "adonuxt",
+    "adonis",
     "adonisjs",
-    "adonis-app",
-    "nuxtjs"
+    "nuxt",
+    "nuxtjs",
+    "nuxt.js"
   ],
   "dependencies": {
     "@adonisjs/ace": "^4.0.6",
