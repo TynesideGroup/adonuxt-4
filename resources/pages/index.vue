@@ -1,14 +1,19 @@
 <template>
-  <div>
-    <h1>Test page</h1>
-    <span>Test message: {{ message }}</span>
-  </div>
+  <section class="container">
+    <img src="/img/logo.png" alt="Adonuxt logo"/>
+    <h1>Universal Vue.js Applications Framework</h1>
+    <nuxt-link :to="{ name: 'about' }">About</nuxt-link>
+  </section>
 </template>
 
 <script>
   export default {
-    data: () => ({
-      message: 'Vue is working!'
-    })
+    name: 'page-index'
   }
 </script>
+
+<style scoped>
+  h1 {
+    margin: 50px 0;
+  }
+</style>

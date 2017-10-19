@@ -15,4 +15,8 @@
 
 const Route = use('Route')
 
+Route.group(() => {
+  Route.resource('users', 'UserController').only(['index', 'show'])
+}).prefix('api/v1')
+
 Route.any('*', 'NuxtController.render')

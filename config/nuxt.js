@@ -12,18 +12,36 @@ module.exports = {
     }
   },
 
+  css: ['~assets/css/main.css'],
+
   head: {
-    title: 'AdoNuxt 4',
+    title: 'Adonuxt',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       {
+        charset: 'utf-8'
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width,initial-scale=1'
+      },
+      {
         'http-equiv': 'x-ua-compatible',
         content: 'ie=edge,chrome=1'
       },
       {
-        charset: 'utf-8'
+        hid: 'description',
+        name: 'description',
+        content: 'Adonuxt project'
+      }
+    ],
+    link: [
+      {
+        rel: 'shortcut icon',
+        type: 'image/x-icon',
+        href: 'favicon.png'
       }
     ],
     noscript: [{ innerHtml: `
@@ -34,7 +52,7 @@ module.exports = {
   },
 
   loading: {
-    color: '#bc0018'
+    color: '#744d82'
   },
 
   router: {

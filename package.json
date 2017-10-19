@@ -1,11 +1,14 @@
 {
-  "name": "adonuxt-4",
-  "version": "0.0.1",
-  "adonis-version": "4.0.0",
-  "description": "Test boilerplate for Adonis 4 + NuxtJS",
+  "name": "adonuxt-template",
+  "version": "2.0.0",
+  "author": "",
+  "description": "",
+  "license": "MIT",
+  "private": true,
   "main": "server.js",
   "scripts": {
-    "dev": "adonis serve --dev --debug",
+    "dev": "adonis serve --dev",
+    "dev-debug": "adonis server --dev --debug",
     "build": "adonis nuxt:build",
     "start": "cross-env NODE_ENV=production node server.js"
   },
@@ -14,9 +17,6 @@
     "adonis-app",
     "nuxtjs"
   ],
-  "author": "Liam Potter",
-  "license": "UNLICENSED",
-  "private": true,
   "dependencies": {
     "@adonisjs/ace": "^4.0.5",
     "@adonisjs/auth": "^2.0.6",
@@ -24,9 +24,9 @@
     "@adonisjs/cors": "^1.0.1",
     "@adonisjs/fold": "^4.0.4",
     "@adonisjs/framework": "^4.0.18",
-    "@adonisjs/ignitor": "^1.0.10",
+    "@adonisjs/ignitor": "^1.0.11",
     "@adonisjs/lucid": "^4.0.17",
-    "@adonisjs/session": "^1.0.13",
+    "@adonisjs/session": "^1.0.15",
     "@adonisjs/shield": "^1.0.2",
     "cross-env": "^5.0.5",
     "nuxt": "^1.0.0-rc11"

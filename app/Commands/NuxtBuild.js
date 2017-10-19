@@ -1,8 +1,9 @@
 'use strict'
 
-const Config = use('Config')
 const { Command } = require('@adonisjs/ace')
 const { Nuxt, Builder } = require('nuxt')
+
+const Config = use('Config')
 
 class NuxtBuild extends Command {
 

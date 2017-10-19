@@ -3,6 +3,7 @@
 const Env = use('Env')
 
 module.exports = {
+
   /*
   |--------------------------------------------------------------------------
   | App Key
@@ -156,4 +157,5 @@ module.exports = {
     */
     fallbackLocale: 'en'
   }
+
 }
